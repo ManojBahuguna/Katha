@@ -5,7 +5,7 @@ import Login from './components/Login';
 
 const App = () => (
   <BrowserRouter>
-    <div>
+    <div className="flex flex-col height-full">
       <Header />
       
       <Switch>
